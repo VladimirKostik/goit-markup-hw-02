@@ -74,17 +74,11 @@ ol {
  }
 
  
-
-
- .navigation {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
- }
-
  .navigaion-help {
+   font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
    color: #2e2f42;
  }
 
@@ -93,16 +87,21 @@ ol {
    color: #404BBF;
  }
 
+ .contacts-inform {
+   font-style: normal;
+ }
+
  .navigaion-lincs {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
  }
 
- .navigaion-lincs:hover {
+ .navigaion-lincs:hover,
+ .navigaion-lincs:focus {
    color: #404BBF;
  }
 
