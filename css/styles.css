@@ -125,7 +125,7 @@ font-weight: 700;
 
  .hero-button:hover,
  .hero-button:focus {
-color: #404BBF;
+background-color: #404BBF;
  }
 
  .visually-hidden {
@@ -147,7 +147,7 @@ font-weight: 700;
 
 .text-principal {
       font-size: 16px;
-      line-height: 1.2;
+      line-height: 1.5;
       letter-spacing: 0.02em;
       color: #434455;
 }
@@ -155,13 +155,29 @@ font-weight: 700;
     background: #f4f4fd;
  }
 
+ .team-title{
+   font-size: 36px;
+   line-height: 1.1;
+   letter-spacing: 0.02em;
+   text-align: center;
+   text-transform: capitalize;
+   color: #2e2f42;
+ }
+
  .team-list {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
+   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+   background-color: #FFFFFF;
+ }
+
+ .team-title-hero{
+   font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: #2e2f42;
  }
 
  .team-list-text {
-   font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
